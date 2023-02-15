@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+body {
+    margin: 0;
+}
+
+.App-background {
+    display: flex;
+    justify-content: center;
+}
+
+.App-main-container {
+    width: 550px;
+    height: 853px;
+    background: #FFFFFF;
+    border-radius: 8.95px;
+
+}
+
+.App-navbar {
+    height: 70px;
+    background:  #FFFFFF;
+    box-shadow: 0px 2.9px 7.45px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-icon {
+    width: 100px;
+    margin: 20px 30px;
+}
+
+.App-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-image {
+    width: 395px;
+    margin-top: 20px;
+}
+
+.hero-text {
+    text-align: left;
+    margin: 36px 0px;
+}
+
+.hero-text > h2 {
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+.hero-text > p {
+    width: 320px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
+.App-card {
+    display: flex;
+    flex-direction: column;
+    width: 176px;
+    padding: 0px 5px;
+    position: relative;
+}
+
+.card-status{
+    width: 61px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.card-status > p {
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+}
+
+.card-rating-star-icon {
+    width: 14px;
+}
+
+.card-description {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card-rating > p {
+    padding-left: 4px;
+    margin: 0px;
+}
+
+.card-description {
+    margin: 8px 0px;
+}
+
+.card-price {
+    margin: 0;
+}
+
+.card-rating-total, .card-rating-country {
+    color: #918E9B;
+}
+
+.card-description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px
+}
+
+.card-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px
+}
+
+.card-price > b {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px
+}
